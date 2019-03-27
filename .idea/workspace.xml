@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99247465-1a3a-45eb-a354-7c9d143125fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/morseTable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeFiles/3.10.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/CMakeFiles/iot-example.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/source/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example-combined.hex" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example-combined.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example.hex" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/source/iot-example.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/toolchain.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/toolchain.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/btle/btle.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/btle/btle_advertising.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/btle/btle_discovery.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/btle/btle_gap.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/btle/btle_security.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/btle/custom/custom_helper.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/nRF5xCharacteristicDescriptorDiscoverer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/nRF5xDiscoveredCharacteristic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/nRF5xGap.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/nRF5xGattClient.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/nRF5xGattServer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/nRF5xServiceDiscovery.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeFiles/ble-nrf51822.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/nRF5xn.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/ble-nrf51822.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/ble-nrf51822.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CMakeFiles/ble.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble/source/BLE.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CMakeFiles/ble.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble/source/DiscoveredCharacteristic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CMakeFiles/ble.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble/source/GapScanningParams.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CMakeFiles/ble.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble/source/services/DFUService.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CMakeFiles/ble.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble/source/services/UARTService.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CMakeFiles/ble.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble/source/services/URIBeaconConfigService.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/ble.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/ble.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/ble/source/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/BusIn.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/BusIn.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/BusInOut.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/BusInOut.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/BusOut.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/BusOut.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/CAN.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/CAN.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/CallChain.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/CallChain.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Ethernet.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Ethernet.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/FileBase.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/FileBase.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/FileLike.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/FileLike.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/FilePath.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/FilePath.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/FileSystemLike.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/FileSystemLike.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/I2C.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/I2C.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/I2CSlave.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/I2CSlave.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/InterruptIn.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/InterruptIn.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/InterruptManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/InterruptManager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/LocalFileSystem.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/LocalFileSystem.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/RawSerial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/RawSerial.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/SPI.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/SPI.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/SPISlave.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/SPISlave.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Serial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Serial.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/SerialBase.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/SerialBase.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Stream.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Stream.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Ticker.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Ticker.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Timeout.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Timeout.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Timer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/Timer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/TimerEvent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/TimerEvent.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/assert.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/assert.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/board.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/board.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/error.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/error.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/gpio.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/gpio.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/lp_ticker_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/lp_ticker_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/mbed_interface.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/mbed_interface.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/pinmap_common.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/pinmap_common.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/retarget.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/retarget.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/rtc_time.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/rtc_time.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/semihost_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/semihost_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/ticker_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/ticker_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/us_ticker_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/us_ticker_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/wait_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/common/wait_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/TOOLCHAIN_GCC_ARM/startup_NRF51822.S.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/TOOLCHAIN_GCC_ARM/startup_NRF51822.S.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/cmsis_nvic.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/cmsis_nvic.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/system_nrf51.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/cmsis/TARGET_NORDIC/TARGET_MCU_NRF51822/system_nrf51.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/analogin_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/analogin_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/gpio_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/gpio_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/gpio_irq_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/gpio_irq_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/i2c_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/i2c_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/pinmap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/pinmap.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/port_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/port_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/pwmout_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/pwmout_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/serial_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/serial_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/sleep.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/sleep.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/spi_api.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/spi_api.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/twi_master.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/twi_master.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/us_ticker.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CMakeFiles/mbed-classic.dir/targets/hal/TARGET_NORDIC/TARGET_MCU_NRF51822/us_ticker.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/mbed-classic.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/mbed-classic/existing/mbed-classic.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/asm/CortexContextSwitch.s.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/asm/CortexContextSwitch.s.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitAccelerometerService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitAccelerometerService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitBLEManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitBLEManager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitButtonService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitButtonService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitDFUService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitDFUService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitEddystone.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitEddystone.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitEventService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitEventService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitIOPinService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitIOPinService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitLEDService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitLEDService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitMagnetometerService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitMagnetometerService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitPartialFlashingService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitPartialFlashingService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitTemperatureService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitTemperatureService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitUARTService.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/bluetooth/MicroBitUARTService.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MemberFunctionCallback.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MemberFunctionCallback.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitCompat.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitCompat.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitDevice.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitDevice.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitFiber.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitFiber.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitFont.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitFont.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitHeapAllocator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitHeapAllocator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitListener.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitListener.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitSystemTimer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitSystemTimer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitUtil.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/core/MicroBitUtil.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/DynamicPwm.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/DynamicPwm.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/FXOS8700.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/FXOS8700.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/LSM303Accelerometer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/LSM303Accelerometer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/LSM303Magnetometer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/LSM303Magnetometer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MAG3110.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MAG3110.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MMA8653.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MMA8653.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitAccelerometer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitAccelerometer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitButton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitButton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitCompass.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitCompass.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitCompassCalibrator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitCompassCalibrator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitDisplay.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitDisplay.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitFile.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitFile.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitFileSystem.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitFileSystem.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitFlash.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitFlash.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitI2C.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitI2C.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitIO.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitIO.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitLightSensor.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitLightSensor.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitMemoryMap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitMemoryMap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitMessageBus.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitMessageBus.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitMultiButton.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitMultiButton.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitPin.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitPin.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitQuadratureDecoder.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitQuadratureDecoder.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitRadio.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitRadio.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitRadioDatagram.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitRadioDatagram.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitRadioEvent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitRadioEvent.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitSerial.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitSerial.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitStorage.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitStorage.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitThermometer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/MicroBitThermometer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/TimedInterruptIn.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/drivers/TimedInterruptIn.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/CoordinateSystem.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/CoordinateSystem.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/ManagedString.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/ManagedString.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/MicroBitEvent.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/MicroBitEvent.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/MicroBitImage.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/MicroBitImage.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/PacketBuffer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/PacketBuffer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/RefCounted.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CMakeFiles/microbit-dal.dir/types/RefCounted.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/microbit-dal.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit-dal/source/microbit-dal.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/CMakeFiles/microbit.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit/source/MicroBit.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/microbit.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/microbit/source/microbit.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_radio_notification/ble_radio_notification.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu/ble_dfu.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_advdata.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_params.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_conn_state.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common/ble_srv_common.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager/device_manager_peripheral.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/id_manager.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/peer_data.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/peer_data_storage.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/peer_database.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/peer_id.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/pm_buffer.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager/pm_mutex.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/ble_flash/ble_flash.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/delay/nrf_delay.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/hal/nrf_ecb.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/hal/nrf_nvmc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage/pstorage.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu/bootloader_util.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu/dfu_app_handler.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu/dfu_init_template.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/crc16/crc16.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fds/fds.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fstorage/fstorage.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fstorage/fstorage_nosd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/hci/hci_mem_pool.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/scheduler/app_scheduler.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util/app_error.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util/app_util_platform.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util/nrf_assert.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util/sdk_mapped_flags.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler/softdevice_handler.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeFiles/nrf51-sdk.dir/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler/softdevice_handler_appsh.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/nrf51-sdk.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source/nrf51-sdk.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/yotta_build_info.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/yotta_build_info.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/yotta_config.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/bbc-microbit-classic-gcc/yotta_config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/morseTable.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/morseTable.h" />
+        <option value="$PROJECT_DIR$/source/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="293" />
+    <option name="y" value="53" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microbitwirelessmorsecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microbitwirelessmorsecode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microbitwirelessmorsecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microbitwirelessmorsecode" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99247465-1a3a-45eb-a354-7c9d143125fe" name="Default Changelist" comment="" />
+      <created>1553687067304</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553687067304</updated>
+      <workItem from="1553687068435" duration="1979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1979000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source/morseTable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

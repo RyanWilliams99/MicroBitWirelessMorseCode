@@ -16,7 +16,7 @@ add_custom_target(all_tests)
 cmake_policy(SET CMP0017 OLD)
 
 # toolchain file for bbc-microbit-classic-gcc
-set(CMAKE_TOOLCHAIN_FILE "/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/toolchain.cmake")
+set(CMAKE_TOOLCHAIN_FILE "/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/toolchain.cmake")
 
 # provide function for post-processing executables
 function (yotta_postprocess_target target_type_ target_name_)
@@ -40,14 +40,17 @@ endfunction()
 # set target-defined definitions
 set(YOTTA_BUILD_YEAR "2019") # UTC year
 set(YOTTA_BUILD_MONTH "3") # UTC month 1-12
-set(YOTTA_BUILD_DAY "18") # UTC day 1-31
-set(YOTTA_BUILD_HOUR "15") # UTC hour 0-24
-set(YOTTA_BUILD_MINUTE "16") # UTC minute 0-59
-set(YOTTA_BUILD_SECOND "7") # UTC second 0-61
-set(YOTTA_BUILD_UUID "d3af414b-7e2a-41c5-a858-4e72d5ab7e95") # unique random UUID for each build
+set(YOTTA_BUILD_DAY "27") # UTC day 1-31
+set(YOTTA_BUILD_HOUR "11") # UTC hour 0-24
+set(YOTTA_BUILD_MINUTE "51") # UTC minute 0-59
+set(YOTTA_BUILD_SECOND "42") # UTC second 0-61
+set(YOTTA_BUILD_UUID "08ed2eb9-ee29-4a17-afbe-c896209e1e9a") # unique random UUID for each build
+set(YOTTA_BUILD_VCS_ID "54a2d6b8bf8df5fe578485ee61e14d4756688700") # git or mercurial hash
+set(YOTTA_BUILD_VCS_CLEAN "0") # evaluates true if the version control system was clean, otherwise false
+set(YOTTA_BUILD_VCS_DESCRIPTION "54a2d6b") # git describe or mercurial equivalent
 set(TARGET BBC_MICROBIT_CLASSIC_GCC)
 set(TARGET_LIKE_BBC_MICROBIT_CLASSIC_GCC TRUE)
-set(YOTTA_BUILD_INFO_HEADER "/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/yotta_build_info.h")
+set(YOTTA_BUILD_INFO_HEADER "/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/yotta_build_info.h")
 set(TARGET_LIKE_BBC_MICROBIT_CLASSIC_GCC TRUE)
 set(TARGET_LIKE_NRF51822 TRUE)
 set(TARGET_LIKE_NRF TRUE)
@@ -67,7 +70,7 @@ set(YOTTA_CFG_MINAR_ADDITIONAL_EVENT_POOLS_SIZE 100)
 set(YOTTA_CFG_ARCH TRUE)
 set(YOTTA_CFG_ARCH_ARM TRUE)
 set(YOTTA_CFG_MBED TRUE)
-set(YOTTA_CONFIG_MERGED_JSON_FILE "/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/yotta_config.json")
+set(YOTTA_CONFIG_MERGED_JSON_FILE "/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/yotta_config.json")
 
 
 project(iot-example)
@@ -81,22 +84,22 @@ if(NOT DEFINED YOTTA_FORCE_INCLUDE_FLAG)
         set(YOTTA_FORCE_INCLUDE_FLAG "-include")
     endif()
 endif()
-add_definitions("${YOTTA_FORCE_INCLUDE_FLAG} \"/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/yotta_config.h\"")
+add_definitions("${YOTTA_FORCE_INCLUDE_FLAG} \"/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/yotta_config.h\"")
 
 # include root directories of all components we depend on (directly and
 # indirectly, including ourself)
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit-dal")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/mbed-classic")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit-dal")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/mbed-classic")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/ble")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/ble-nrf51822")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk")
 
 
 # recurse into dependencies that aren't built elsewhere
 add_subdirectory(
-   "/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/ym/microbit"
+   "/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/ym/microbit"
    "${CMAKE_BINARY_DIR}/ym/microbit"
 )
 
@@ -105,44 +108,44 @@ add_subdirectory(
 # And others (typically CMSIS implementations) need to export non-system header
 # files. Please don't use this facility. Please. It's much, much better to fix
 # implementations that import these headers to import them using the full path.
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit/inc")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit-dal/inc/core")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit-dal/inc/types")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit-dal/inc/drivers")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit-dal/inc/bluetooth")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit-dal/inc/platform")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/mbed-classic/api")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/mbed-classic/hal")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/mbed-classic/targets/hal")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/mbed-classic/targets/cmsis")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/btle")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/btle/custom")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/ble-nrf51822/source/common")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_radio_notification")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager/config")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/ble_flash")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/delay")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/hal")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage/config")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu/hci_transport")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/crc16")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/hci")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/scheduler")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/timer")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fds")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fstorage")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/experimental_section_vars")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers")
-include_directories("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/nrf51-sdk/source/nordic_sdk/components/toolchain")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit/inc")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit-dal/inc/core")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit-dal/inc/types")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit-dal/inc/drivers")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit-dal/inc/bluetooth")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit-dal/inc/platform")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/mbed-classic/api")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/mbed-classic/hal")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/mbed-classic/targets/hal")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/mbed-classic/targets/cmsis")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/ble-nrf51822/source/btle")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/ble-nrf51822/source/btle/custom")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/ble-nrf51822/source/common")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_radio_notification")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/ble_services/ble_dfu")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/common")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/device_manager/config")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/ble/peer_manager")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/device")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/ble_flash")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/delay")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/hal")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/drivers_nrf/pstorage/config")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/bootloader_dfu/hci_transport")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/crc16")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/hci")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/scheduler")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/timer")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/util")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fds")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/fstorage")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/libraries/experimental_section_vars")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/common/softdevice_handler")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/softdevice/s130/headers")
+include_directories("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/nrf51-sdk/source/nordic_sdk/components/toolchain")
 
 
 # modules with custom CMake build systems may append to the
@@ -170,7 +173,7 @@ set(YOTTA_MODULE_NAME iot-example)
 # add_subdirectory because the directories referred to here exist in the source
 # tree, not the working directory
 add_subdirectory(
-    "/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/source"
+    "/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/source"
     "${CMAKE_BINARY_DIR}/./source"
 )
 

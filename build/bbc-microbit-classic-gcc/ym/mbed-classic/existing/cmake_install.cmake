@@ -1,4 +1,4 @@
-# Install script for directory: /home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/mbed-classic
+# Install script for directory: /home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/mbed-classic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

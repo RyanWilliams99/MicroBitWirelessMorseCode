@@ -1,4 +1,4 @@
-# Install script for directory: /home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_modules/microbit-dal/source
+# Install script for directory: /home/ryan/MicroBit/microbitwirelessmorsecode/yotta_modules/microbit-dal/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

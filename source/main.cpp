@@ -7,90 +7,43 @@
 
 #include <string.h>
 #include "MicroBit.h"
+#include "morseTable.h"
 
 MicroBit uBit;
 
 
-uint64_t system_timer_current_time();
-MicroBitButton buttonA(MICROBIT_PIN_BUTTON_A, MICROBIT_ID_BUTTON_A);
+uint64_t system_timer_current_time(); //Used when sending
+MicroBitButton buttonA(MICROBIT_PIN_BUTTON_A, MICROBIT_ID_BUTTON_A); //Buttons for sending
 
-
-typedef struct //Used to convert Morse to ASCII
+void onData(MicroBitEvent) //Function which is called when recieved
 {
-    char* const morse;
-    char* const ascii;
-} morse_table_t;
-
-char input[] = "";
-
-morse_table_t table[] = {{".-",    "A"},
-                         {"-...",  "B"},
-                         {"-.-.",  "C"},
-                         {"-..",   "D"},
-                         {".",     "E"},
-                         {"..-.",  "F"},
-                         {"--.",   "G"},
-                         {"....",  "H"},
-                         {"..",    "I"},
-                         {".---",  "J"},
-                         {"-.-",   "K"},
-                         {".-..",  "L"},
-                         {"--",    "M"},
-                         {"-.",    "N"},
-                         {"---",   "O"},
-                         {".--.",  "P"},
-                         {"--.-",  "Q"},
-                         {".-.",   "R"},
-                         {"...",   "S"},
-                         {"-",     "T"},
-                         {"..-",   "U"},
-                         {"...-",  "V"},
-                         {".--",   "W"},
-                         {"-..-",  "X"},
-                         {"-.--",  "Y"},
-                         {"--..",  "Z"},
-                         {"-----", "0"},
-                         {".----", "1"},
-                         {"..---", "2"},
-                         {"...--", "3"},
-                         {"....-", "4"},
-                         {".....", "5"},
-                         {"-....", "6"},
-                         {"--...", "7"},
-                         {"---..", "8"},
-                         {"----.", "9"}
-
-};
-
-void onData(MicroBitEvent)
-{
-    ManagedString s = uBit.radio.datagram.recv();
+    ManagedString s = uBit.radio.datagram.recv(); //Get string from microbit radio
     bool validMessage = false;
-    if (s == "1")
+    if (s == "1") //If 1 then dot
     {
         uBit.display.print(".");
         uBit.sleep(1000);
         strcat(input, ".");
 
     }
-    if (s == "2")
+    if (s == "2") //if 2 then dash
     {
         uBit.display.print("-");
         uBit.sleep(1000);
         strcat(input, "-");
     }
-    if (s == "3")
+    if (s == "3") //Prints passsed char then clear
     {
         uBit.display.clear();
         char *segment;
         int i;
         segment = strtok(input, " ");
-        while (segment) {
+        while (segment) { //For every possible morse see if valid then print
             for (i = 0; i < 36; ++i) {
                 if (!strcmp(segment, table[i].morse)) {
                     validMessage = true;
                     uBit.sleep(1000);
-                    uBit.display.scroll(table[i].ascii);
+                    uBit.display.scroll(table[i].ascii); //Display the char
                 }
             }
             segment = strtok(nullptr, " ");
@@ -102,14 +55,12 @@ void onData(MicroBitEvent)
         }
         memset(input, 0, sizeof input); //Clear input string for next char
     }
-
 }
 
 int main() {
 
-    uBit.init();
+    uBit.init(); //Init Radio
     uBit.radio.enable();
-
     uBit.messageBus.listen(MICROBIT_ID_RADIO, MICROBIT_RADIO_EVT_DATAGRAM, onData);
 
 
@@ -146,7 +97,7 @@ int main() {
                 uBit.sleep(100);
 
             }
-            else { // Is it an END OF MESSAGE
+            else { // Is it an end of message
                 uBit.display.print("E");
                 uBit.radio.datagram.send("3");
                 uBit.sleep(100);
@@ -155,14 +106,14 @@ int main() {
 
             // Reset
             pressed = false;
-            uBit.display.clear();
+            uBit.display.clear(); //Clear display
         }
 
         ///////////////////////////////READING//////////////////////////////////
 
-        ManagedString s = uBit.radio.datagram.recv();
+        ManagedString s = uBit.radio.datagram.recv(); //Get radio string
         uBit.display.print(s);
         uBit.sleep(100);
-        uBit.display.clear();
+        uBit.display.clear(); //Clear display after showing char
     }
 }

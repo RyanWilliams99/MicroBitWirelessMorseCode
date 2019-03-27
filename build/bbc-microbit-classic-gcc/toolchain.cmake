@@ -5,5 +5,5 @@ if(YOTTA_META_TOOLCHAIN_FILE_INCLUDED)
 endif()
 set(YOTTA_META_TOOLCHAIN_FILE_INCLUDED 1)
 
-include("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_targets/mbed-gcc/CMake/toolchain.cmake")
-include("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/yotta_targets/bbc-microbit-classic-gcc/CMake/toolchain.cmake")
+include("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_targets/mbed-gcc/CMake/toolchain.cmake")
+include("/home/ryan/MicroBit/microbitwirelessmorsecode/yotta_targets/bbc-microbit-classic-gcc/CMake/toolchain.cmake")

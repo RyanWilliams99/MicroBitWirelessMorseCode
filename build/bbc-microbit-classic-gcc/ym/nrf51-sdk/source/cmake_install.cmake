@@ -1,4 +1,4 @@
-# Install script for directory: /home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source
+# Install script for directory: /home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/ym/nrf51-sdk/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

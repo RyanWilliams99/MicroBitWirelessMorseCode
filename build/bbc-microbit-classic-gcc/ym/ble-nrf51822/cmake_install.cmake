@@ -1,4 +1,4 @@
-# Install script for directory: /home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/ym/ble-nrf51822
+# Install script for directory: /home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/ym/ble-nrf51822
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/cmake_install.cmake")
+  include("/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc/ym/ble-nrf51822/source/cmake_install.cmake")
 
 endif()
 

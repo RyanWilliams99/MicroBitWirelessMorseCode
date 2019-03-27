@@ -196,7 +196,7 @@ rule CXX_EXECUTABLE_LINKER__iot-example
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -H/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc -B/home/ryan/Documents/MicroBit/Challenge3-MicroBitWireless/build/bbc-microbit-classic-gcc
+  command = /usr/bin/cmake -H/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc -B/home/ryan/MicroBit/microbitwirelessmorsecode/build/bbc-microbit-classic-gcc
   description = Re-running CMake...
   generator = 1
 
